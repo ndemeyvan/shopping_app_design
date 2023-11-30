@@ -5,7 +5,6 @@
         "type": "dart",
         "request": "launch",
         "name": "run",
-        "program": "${flutterInstallPath}/bin/flutter",
         "args": [
           "run",
           "--target",

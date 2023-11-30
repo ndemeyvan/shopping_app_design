@@ -40,6 +40,11 @@ dependencies:
   supercharged: ^2.1.1
   flutter_screenutil: ^5.6.0
   flip_card: ^0.7.0
+  animate_do: ^3.1.2
+  font_awesome_flutter: ^10.6.0
+  flutter_blurhash: ^0.8.2
+  shimmer: ^3.0.0
+  
 
 dev_dependencies:
   flutter_test:
@@ -79,7 +84,10 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: nunito_regular_400
+    - family: bebasneue_regular
+      fonts:
+        - asset:  assets/fonts/bebasneue_regular.ttf
+    - family: nunito_regular
       fonts:
         - asset:  assets/fonts/nunito_regular_400.ttf
   #   - family: Trajan Pro

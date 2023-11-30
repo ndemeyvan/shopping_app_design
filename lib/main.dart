@@ -1,3 +1,4 @@
+import 'package:artistic_app/constant/constant.dart';
 import 'package:artistic_app/routes/generated_route.dart';
 import 'package:artistic_app/screen/login_screen.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         builder: (_, child) {
           return MaterialApp(
             theme: ThemeData(
-              fontFamily: 'nunito_regular_400',
+              fontFamily: Constant.bebasNeueRegular,
             ),
             debugShowCheckedModeBanner: false,
             title: "Artistic app",
