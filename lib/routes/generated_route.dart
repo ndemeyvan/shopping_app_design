@@ -1,10 +1,11 @@
-import 'package:artistic_app/data/product_item_model.dart';
-import 'package:artistic_app/routes/route_name.dart';
-import 'package:artistic_app/routes/undefined_screen.dart';
-import 'package:artistic_app/screen/detail_screen.dart';
-import 'package:artistic_app/screen/home_screen.dart';
-import 'package:artistic_app/screen/presentation_screen.dart';
+
 import 'package:flutter/material.dart';
+import 'package:shopping_app/data/product_item_model.dart';
+import 'package:shopping_app/routes/route_name.dart';
+import 'package:shopping_app/routes/undefined_screen.dart';
+import 'package:shopping_app/screen/detail_screen.dart';
+import 'package:shopping_app/screen/home_screen.dart';
+import 'package:shopping_app/screen/presentation_screen.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
   String? routeName = settings.name;

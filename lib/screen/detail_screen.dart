@@ -1,13 +1,14 @@
 import 'package:animate_do/animate_do.dart';
-import 'package:artistic_app/constant/constant.dart';
-import 'package:artistic_app/data/product_item_model.dart';
-import 'package:artistic_app/screen/home_screen.dart';
-import 'package:artistic_app/screen/widgets/app_button_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_lorem/flutter_lorem.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:shopping_app/constant/constant.dart';
+import 'package:shopping_app/screen/home_screen.dart';
+import 'package:shopping_app/screen/widgets/app_button_widget.dart';
+
+import '../data/product_item_model.dart';
 
 class DetailScreen extends StatefulWidget {
   final ProductTiemModel productTiemModel;

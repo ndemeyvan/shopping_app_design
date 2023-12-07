@@ -1,8 +1,8 @@
 import 'package:animate_do/animate_do.dart';
-import 'package:artistic_app/constant/constant.dart';
-import 'package:artistic_app/routes/route_name.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:shopping_app/constant/constant.dart';
+import 'package:shopping_app/routes/route_name.dart';
 
 class PresentationScreen extends StatefulWidget {
   const PresentationScreen({super.key});

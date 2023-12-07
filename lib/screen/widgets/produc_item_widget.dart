@@ -1,8 +1,8 @@
 import 'package:animate_do/animate_do.dart';
-import 'package:artistic_app/data/product_item_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:shopping_app/data/product_item_model.dart';
 
 class ProductItemWidget extends StatelessWidget {
   final ProductTiemModel product;

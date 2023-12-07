@@ -1,8 +1,8 @@
-import 'package:artistic_app/constant/constant.dart';
-import 'package:artistic_app/routes/generated_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:shopping_app/constant/constant.dart';
+import 'package:shopping_app/routes/generated_route.dart';
 
 import 'routes/route_name.dart';
 import 'theme/logic/theme_cubit.dart';

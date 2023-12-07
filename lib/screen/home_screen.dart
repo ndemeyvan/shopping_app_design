@@ -1,11 +1,11 @@
 import 'package:animate_do/animate_do.dart';
-import 'package:artistic_app/constant/constant.dart';
-import 'package:artistic_app/data/product_item_model.dart';
-import 'package:artistic_app/routes/route_name.dart';
-import 'package:artistic_app/screen/widgets/horiwontal_tabs_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:shopping_app/constant/constant.dart';
+import 'package:shopping_app/data/product_item_model.dart';
+import 'package:shopping_app/routes/route_name.dart';
+import 'package:shopping_app/screen/widgets/horiwontal_tabs_item.dart';
 
 import 'widgets/produc_item_widget.dart';
 
