@@ -173,8 +173,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                                   textAlign: TextAlign.start,
                                   "New Autumn \n2022 collection",
                                   style: TextStyle(
-                                    color:
-                                        Theme.of(context).colorScheme.primary,
+                                    color: Colors.white,
                                     fontSize: 23.sp,
                                     fontFamily: Constant.criteriaCfRegular400,
                                     fontWeight: FontWeight.bold,
@@ -194,9 +193,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                                         textAlign: TextAlign.start,
                                         "Choose the perfect outfit in our app",
                                         style: TextStyle(
-                                          color: Theme.of(context)
-                                              .colorScheme
-                                              .primary,
+                                          color: Colors.white,
                                           fontFamily:
                                               Constant.criteriaCfRegular400,
                                           fontSize: 11.sp,
