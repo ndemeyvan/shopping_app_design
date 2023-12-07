@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                       BlendMode.srcIn,
                     ),
                     child: FadeInRight(
-                      duration: const Duration(seconds: 2),
+                      duration: const Duration(seconds: 4),
                       child: GestureDetector(
                         behavior: HitTestBehavior.translucent,
                         onTap: () {
