@@ -3,35 +3,33 @@
 import 'package:flutter/material.dart';
 
 class Constant {
-  //Image Constant
-  static const loginImageJpg = "assets/images/artist_login_page.jpg";
+  //Images
   static const networkImage =
-      "https://firebasestorage.googleapis.com/v0/b/devtestproject-edc92.appspot.com/o/pexels-photo-3756766.jpeg?alt=media&token=988fce2c-c1a9-4d2c-be90-1c7f72242032";
+      "https://firebasestorage.googleapis.com/v0/b/devtestproject-edc92.appspot.com/o/pexels-khalif-holmes-15072213.jpg?alt=media&token=ce82a654-ccb5-4056-8d54-2e6438cb7c14";
+  static const image1 = "assets/images/image_1.jpg";
+  static const image2 = "assets/images/image_2.jpg";
+  static const image3 = "assets/images/image_3.jpg";
+  static const image4 = "assets/images/image_4.jpg";
+  static const image5 = "assets/images/image_5.jpg";
 
-  // Colors
-  static const Color blueOcean = Color(0xFFAAD5FF);
-  static const Color yellow = Colors.yellowAccent;
-  static const Color purple = Colors.purple;
-  static const Color red = Color(0xFFEB5851);
-  static const Color blue = Color(0xFF694CF1);
-  static const Color white = Color(0xFFFFFFFF);
-  static const Color black = Color(0xFF000000);
-  static const Color transparent = Colors.transparent;
-  static const Color grey = Colors.grey;
+  static const menu = "assets/images/menu.png";
+  static const marketIcon = "assets/images/market.png";
+  static const leftArrow = "assets/images/left-arrow.png";
+
+
+
+
+  static const rightArrow = "assets/images/right-arrow.png";
 
   // font
-  static const bebasNeueRegular = "bebasneue_regular";
   static const nunitoRegular400 = "nunito_regular";
+  static const bebasneueRegular400 = "bebasneue_regular_400";
+
+  static const criteriaCfBold = "criteria_cf_bold";
+  static const criteriaCfRegular400 = "criteria_cf_regular_400";
 
   //size
   static Size getMediaQuery(BuildContext context) {
     return MediaQuery.of(context).size;
   }
-
-  // variable
-  static List<String> classCourses = [
-    "Photograpy for Brands",
-    "Music video shooting",
-    "Street photograpy"
-  ];
 }

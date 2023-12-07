@@ -1,9 +1,9 @@
-import 'package:artistic_app/data/model/classes_model.dart';
+import 'package:artistic_app/data/product_item_model.dart';
 import 'package:artistic_app/routes/route_name.dart';
 import 'package:artistic_app/routes/undefined_screen.dart';
-import 'package:artistic_app/screen/class_detail.dart';
-import 'package:artistic_app/screen/entry_point.dart';
-import 'package:artistic_app/screen/login_screen.dart';
+import 'package:artistic_app/screen/detail_screen.dart';
+import 'package:artistic_app/screen/home_screen.dart';
+import 'package:artistic_app/screen/presentation_screen.dart';
 import 'package:flutter/material.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
@@ -11,14 +11,16 @@ Route<dynamic> generateRoute(RouteSettings settings) {
   Map<String, dynamic>? args = settings.arguments as Map<String, dynamic>?;
 
   switch (routeName) {
-    case RouteName.loginScreen:
-      return MaterialPageRoute<Widget>(builder: (_) => const LoginScreen());
-    case RouteName.enrtyPoint:
-      return MaterialPageRoute<Widget>(builder: (_) => const EntryPoint());
-    case RouteName.classDetail:
+    case RouteName.presentationScreen:
       return MaterialPageRoute<Widget>(
-          builder: (_) => ClassDetailScreen(
-                classModel: args?['classModel'] as ClassModel,
+          builder: (_) => const PresentationScreen());
+    case RouteName.homeScreen:
+      return MaterialPageRoute<Widget>(builder: (_) => const HomeScreen());
+    case RouteName.detailScreen:
+      var args = settings.arguments as Map<String, dynamic>;
+      return MaterialPageRoute<Widget>(
+          builder: (_) => DetailScreen(
+                productTiemModel: args['productTiemModel'] as ProductTiemModel,
               ));
     default:
       return MaterialPageRoute(builder: (_) => const UndefinedPage());
