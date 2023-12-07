@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
                   colorScheme: ThemeData.light().colorScheme.copyWith(
                         primary: const Color(0xFFfcfcfc),
                         secondary: const Color(0xFF8b8b8b),
-                        tertiary: const Color(0xFFfcfcfc),
+                        tertiary: const Color(0xFF0b0b0b),
                         onTertiary: const Color(0xFF0b0b0b),
                       ),
                 ),

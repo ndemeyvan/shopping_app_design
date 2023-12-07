@@ -28,7 +28,7 @@ class _DetailScreenState extends State<DetailScreen> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        // backgroundColor: Theme.of(context).colorScheme.tertiary,
+        backgroundColor: Theme.of(context).colorScheme.tertiary,
         appBar: PreferredSize(
           preferredSize: Size(double.infinity, 55.h),
           child: Padding(
@@ -44,9 +44,16 @@ class _DetailScreenState extends State<DetailScreen> {
                     Theme.of(context).colorScheme.primary,
                     BlendMode.srcIn,
                   ),
-                  child: Image.asset(
-                    Constant.marketIcon,
-                    width: 30.w,
+                  child: FadeInRight(
+                    duration: const Duration(seconds: 2),
+                    child: GestureDetector(
+                      behavior: HitTestBehavior.translucent,
+                      onTap: () {},
+                      child: Image.asset(
+                        Constant.marketIcon,
+                        width: 30.w,
+                      ),
+                    ),
                   ),
                 )
               ],
@@ -238,7 +245,8 @@ class _DetailScreenState extends State<DetailScreen> {
         ),
         bottomSheet: Wrap(
           children: [
-            Padding(
+            Container(
+              color: Theme.of(context).colorScheme.tertiary,
               padding: const EdgeInsets.all(8.0),
               child: Row(
                 children: [
